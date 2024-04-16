@@ -11,6 +11,7 @@
         width: 200px;
         height: 200px;
         color: white;
+        
       }
       #shapeInner {
         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -31,7 +32,7 @@
         display: block;
       }
 
-      .button-85:before {
+      .button-85:hover::before {
         content: "";
         background: linear-gradient(
           45deg,
@@ -43,8 +44,10 @@
           #002bff,
           #7a00ff,
           #ff00c8,
-          #ff0000
+          #ff0000,
+          #75b2d5
         );
+        
         position: absolute;
         top: -2px;
         left: -2px;
